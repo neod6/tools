@@ -22,7 +22,7 @@ var g_type=0;var endNumber=true;var mem=0,carry=10,layer=0;var hexnum="012345678
 var lastOperator="";var isMaxLen=false;
 
 
-
+//new version
 var data={left:"",sign:"",right:"",result:""}
 var current=false;var m="";var isMaxLength=false;
 var c_get=function(tagId){return document.getElementById(tagId);}
