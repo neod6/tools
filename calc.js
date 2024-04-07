@@ -98,7 +98,7 @@ case-1:
     if (c_get("resultIpt").value.substring(0, 1) == "0" && key.innerHTML == "0" && c_get("resultIpt").value.length <= 1) {break;}
 
     if (current) {
-        alert('here');
+        // alert('here');
         if ((data.right.toString().indexOf(".") != -1 && key.value == ".")) {
             return false;
         } else {
