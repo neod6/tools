@@ -34,20 +34,22 @@
 							<div class="calculator_bd" id="calculator_bd" width="300">
 								<ul class="calculator_table">
 									<li>
-										<a class="cal_btn" href="javascript:;"
-											onclick="calculator.memory(this,0);">存储</a><a class="cal_btn"
-											href="javascript:;" onclick="calculator.memory(this,1);">取存</a><a
-											class="cal_btn cla_btn_org" href="javascript:;"
-											id="simpleDel" onclick="calculator.remove();">退格</a><a
-											class="cal_btn cla_btn_org" href="javascript:;"
-											id="simpleClearAllBtn" onclick="calculator.clearAll();">清屏</a>
+<!--										<a class="cal_btn" href="javascript:;"-->
+<!--											onclick="calculator.memory(this,0);">存储</a><a class="cal_btn"-->
+<!--											href="javascript:;" onclick="calculator.memory(this,1);">取存</a><a-->
+<!--											class="cal_btn cla_btn_org" href="javascript:;"-->
+<!--											id="simpleDel" onclick="calculator.remove();">退格</a>-->
+<!--										<a-->
+<!--											class="cal_btn cla_btn_org" href="javascript:;"-->
+<!--											id="simpleClearAllBtn" onclick="calculator.clearAll();">清屏</a>-->
 									</li>
 									<li>
-										<a class="cal_btn" href="javascript:;"
-											onclick="calculator.memory(this,-1);">累存</a>
+										<a
+											class="cal_btn cla_btn_org" href="javascript:;"
+											id="simpleClearAllBtn" onclick="calculator.clearAll();">清屏</a>
 										</td>
-										<a class="cal_btn" href="javascript:;"
-											onclick="calculator.memory(this,-2);">积存</a>
+										<a class="cal_btn fontArial" href="javascript:;" id="simple0"
+											onclick="calculator.input(this,-1);">0</a>
 										</td>
 										<a class="cal_btn" href="javascript:;"
 											onclick="calculator.memory(this,2);">清存</a>
@@ -86,8 +88,8 @@
 											id="simpleAdd" onclick="calculator.input(this,0);">+</a>
 									</li>
 									<li>
-										<a class="cal_btn fontArial" href="javascript:;" id="simple0"
-											onclick="calculator.input(this,-1);">0</a><a
+<!--										<a class="cal_btn fontArial" href="javascript:;" id="simple0"-->
+<!--											onclick="calculator.input(this,-1);">0</a><a-->
 											class="cal_btn fontArial" href="javascript:;" id="simpleDot"
 											onclick="calculator.input(this,-1);">.</a><a
 											class="cal_btn fontArial" href="javascript:;"
